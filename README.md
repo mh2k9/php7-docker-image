@@ -6,6 +6,7 @@ Apache2 with php7 on Ubuntu 16.04 LTS
 This image is with Ubuntu 16.04 LTS with apache2, php7 and composer
 
 We should map the `/var/www/html` to access the app contents from outside the docker container.
+
 Examples
 ----
 
