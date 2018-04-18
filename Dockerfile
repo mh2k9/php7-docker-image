@@ -1,5 +1,5 @@
 FROM ubuntu:16.04
-MAINTAINER Mahadi <deev2k9@gmail.com>
+MAINTAINER Mahadi <mahadihasan@w3engineers.com>
 
 # Disable interactive functions
 ENV DEBIAN_FRONTEND noninteractive
@@ -31,6 +31,10 @@ RUN apt-get update && \
     php7.0-soap \
     php7.0-opcache \
     composer
+
+# Install system CURL
+RUN apt-get update && \
+    apt-get install -y curl
 
 COPY apache2.conf /etc/apache2/apache2.conf
 COPY . /var/www/html/
