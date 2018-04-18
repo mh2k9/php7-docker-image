@@ -11,10 +11,11 @@ Examples
 
 `$ docker run -d -h app -v $(pwd):/var/www/html -p 80:80 --name php7 csemahadi/php7 > /dev/null`
 
-`-p 80:80` is publish the container’s port(80) to the host
-`-d` flag means run container in the background
-`-h` flag means hostname
-`-v` flag is for mounting current working directory
-`--name php7` is the container name is php7
+- `-p 80:80` is publish the container’s port(80) to the host
+- `-d` flag means run container in the background
+- `-h` flag means hostname
+- `-v` flag is for mounting current working directory
+- `--name php7` is the container name is php7
+
 To run commands or edit settings inside the container run the following command:
 `$ docker exec -it php7 bash`
