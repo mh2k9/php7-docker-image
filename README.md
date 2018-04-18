@@ -18,4 +18,5 @@ Examples
 - `--name php7` is the container name is php7
 
 To run commands or edit settings inside the container run the following command:
+
 `$ docker exec -it php7 bash`
