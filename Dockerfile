@@ -1,5 +1,5 @@
 FROM ubuntu:16.04
-MAINTAINER Mahadi <mahadihasan@w3engineers.com>
+MAINTAINER Mahadi <mhm2k9@gmail.com>
 
 # Disable interactive functions
 ENV DEBIAN_FRONTEND noninteractive
