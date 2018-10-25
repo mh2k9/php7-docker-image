@@ -10,7 +10,7 @@ We should map the `/var/www/html` to access the app contents from outside the do
 Examples
 ----
 
-`$ docker run -d -h app -v $(pwd):/var/www/html -p 80:80 --name php7 csemahadi/php7 > /dev/null`
+`$ docker run -d -h app -v $(pwd):/var/www/html -p 80:80 --name php7 csemahadi/php7-docker-image > /dev/null`
 
 - `-p 80:80` is publish the container’s port(80) to the host
 - `-d` flag means run container in the background
